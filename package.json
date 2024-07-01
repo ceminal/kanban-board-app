@@ -1,0 +1,38 @@
+{
+  "name": "kanban-board-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hello-pangea/dnd": "^16.6.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "axios": "^1.7.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "next": "14.2.4",
+    "next-connect": "^1.0.0",
+    "react": "^18",
+    "react-dnd": "^16.0.1",
+    "react-dom": "^18",
+    "react-hook-form": "^7.52.0",
+    "react-icons": "^5.2.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-beautiful-dnd": "^13.1.8",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
